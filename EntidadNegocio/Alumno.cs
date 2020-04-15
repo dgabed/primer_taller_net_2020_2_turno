@@ -8,17 +8,17 @@ namespace EntidadNegocio
 {
     class Alumno
     {
-        public string nombre;
+        public string brach_pp_nombre;
         public string apellido { get; set; }
 
         public void setNombre(string nombre)
         {
-            this.nombre = nombre;
+            this.brach_pp_nombre = nombre;
         }
 
         public string getNombre()
         {
-            return this.nombre;
+            return this.brach_pp_nombre;
         }
     }
 }
