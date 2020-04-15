@@ -8,7 +8,13 @@ namespace EntidadNegocio
 {
     class Curso
     {
-        public string descripcion { get; set; }
+        public string descripcion;
 
+
+
+        public void setDescripcion(string descripcion)
+        {
+            this.descripcion = descripcion;
+        }
     }
 }
