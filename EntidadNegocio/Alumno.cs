@@ -8,7 +8,7 @@ namespace EntidadNegocio
 {
     class Alumno
     {
-        public string nombre { get; set; }
+        public string branch_master_nombre { get; set; }
         public string apellido { get; set; }
 
     }
